@@ -1,10 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './components/app';
 
-
-const swapi = new SwapiService()
-
-swapi.getStarship(3).then((p) => {
-  
-    console.log(p.name)
-  
-  
-})
+ReactDOM.render(<App />,
+document.getElementById('root'));
