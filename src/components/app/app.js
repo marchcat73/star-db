@@ -4,7 +4,7 @@ import Header from '../header';
 import RandomPlanet from '../random-planet';
 import ItemList from '../item-list';
 import PersonDetails from '../person-details';
-// import ErrorButton from '../error-button';
+import ErrorButton from '../error-button';
 import ErrorIndicator from '../error-indicator';
 
 import './app.css';
@@ -56,7 +56,7 @@ export default class App extends Component {
             onClick={this.toggleRandomPlanet}>
             Toggle Random Planet
           </button>
-          {/* <ErrorButton /> */}
+          <ErrorButton />
         </div>
   
         <div className="row mb2">
